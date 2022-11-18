@@ -23,3 +23,7 @@ git init
  (este documento)
 ## paso 11 otro commit con agrega soloción ejercicio1
  git commit -m 'solución ejercicio1'
+## paso 12 subir a git hub generando primero la rama main
+ 
+ git remote add origin https://github.com/anemejia/nivelacion-mir.git
+ git push origin main
