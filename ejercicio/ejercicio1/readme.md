@@ -21,3 +21,5 @@ git init
  git commit -m 'versión inicial'
  ## paso 10 Agregar los comandos que se usas en cada paso al readme
  (este documento)
+## paso 11 otro commit con agrega soloción ejercicio1
+ git commit -m 'solución ejercicio1'
