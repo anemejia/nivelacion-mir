@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  form h1 {
+    margin: 0 0 20px;
+    color: white
+  }
+  form .group {
+    margin-bottom: 15px;
+  }
+  input[type=email], input[type=password], select {
+    width: 100%;
+    padding: 7px;
+  }
+  form label {
+    display: block;
+    color: white;
+  }
+  
+  .actions {
+    text-align: right;
+    
+  }
+
+.form-maqueta{  
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    background: linear-gradient(#bd6c09, #4cd6f5);
+    box-shadow: 5px 5px 15px #333;
+}
+button {
+  padding: 5px 15px;
+}
+
+@media screen and (min-width:500px) {
+    .form-maqueta{
+        width: 300px;
+    }
+}
