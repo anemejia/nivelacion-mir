@@ -1,19 +1,11 @@
+
 function suma(num) {
     var resultado=0;
-ejercicio4
-function calcularColor(numero) {
-    var cadena;
-    if (numero === 1){
-        cadena='El color es negro';
-    }else if (numero === 2){
-        cadena='El color es blanco';
-    }else if (numero === 3){
-        cadena='El color es azul';
-    }else{
-        cadena='El color es verde';}
-    return cadena;
+    for (i=1; i<=num ; i++){
+        resultado=resultado+i;
+    }
+    return resultado;
 }
-console.log(calcularColor(1));
-console.log(calcularColor(2));
-console.log(calcularColor(3));
-console.log(calcularColor(4));
+console.log(suma(4));
+console.log(suma(10));
+console.log(suma(15));
