@@ -1,0 +1,76 @@
+:root{
+    --Colorpalette_1:#24244c; 
+    --Colorpalette_2:#6e6b84;
+    --Colorpalette_3:#554971;
+    --Colorpalette_4:#ef6461;
+    --Colorpalette_5:#f4f0f3;
+    --Colorpalette_6:white;
+    font-size: 16px;
+    background-color:var(--Colorpalette_2) ;   
+}
+@font-face {
+    font-family: FiraSans;
+    src: url(fuentes/FiraSans-Black.ttf);
+}
+h2{
+    margin:5%;
+    font-size:2rem;
+    font-family: Firasans;
+    background-color:var(--Colorpalette_2) ;
+}
+.main{
+    margin:0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Firasans;
+    background-color:var(--Colorpalette_2);
+    gap: 1.5rem;
+}
+.main__basic{
+     background-color: var(--Colorpalette_5);
+     }
+.main__bestvalue{
+        background-color: var(--Colorpalette_5);
+        }
+.main__super{
+            background-color: var(--Colorpalette_5);
+            }
+       
+   
+.main__basic>h3{
+    margin: 0;
+    border-radius: 0.25rem;
+    text-align: center;
+    color: var(--Colorpalette_2);
+    background-color: var(--Colorpalette_1);
+}
+.main__bestvalue>h3{
+    margin: 0;
+    border-radius: 0.25rem;
+    text-align:center;
+    color: var(--Colorpalette_2);
+    background-color: var(--Colorpalette_4);
+}
+.main__super>h3{
+    margin: 0;
+    border-radius: 0.25rem;
+    text-align: center;
+    color: var(--Colorpalette_2);
+    background-color: var(--Colorpalette_1);
+}
+
+@media only screen and (max-width:400px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin:0.2rem;   
+    }
+}
+@media only screen and (max-width:150px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin:0;   
+    }
+}

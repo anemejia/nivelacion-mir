@@ -1,0 +1,28 @@
+:root{
+  --Colorpalette_1:#24244c; 
+  --Colorpalette_2:#6e6b84;
+  --Colorpalette_3:#554971;
+  --Colorpalette_4:#ef6461;
+  --Colorpalette_5:#f4f0f3;
+  --Colorpalette_6:white;
+  --Colorpalette_7:#2d3142;
+  font-size: 16px;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+  img{
+  display:block;
+  margin:auto;
+  }
+  .circular{
+    border-radius: 50%;
+    border: 5px white solid;
+   }
+   .centratext{
+    text-align: center;
+   }
+   .card_body>h1{
+    margin:1rem; 
+    border: 10rem; 
+    background: linear-gradient(var(--Colorpalette_1),var(--Colorpalette_4));
+    }
+   

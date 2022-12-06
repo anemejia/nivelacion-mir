@@ -14,7 +14,6 @@ receta.ingredientes=[ingre,ingre2];
 
 //console.log(receta.ingredientes[0].nombre);
 //console.log(receta.ingredientes[0].cantidad+receta.ingredientes[1].cantidad);
-
 //
 function cantidad(num){
 let resultado=0;
